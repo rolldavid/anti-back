@@ -2,7 +2,7 @@ const express = require("express");
 const router = express.Router();
 const { check } = require("express-validator");
 const passport = require("passport");
-const keys = require("../config/keys");x
+const keys = require("../config/keys");
 
 router.get(
   "/google",
